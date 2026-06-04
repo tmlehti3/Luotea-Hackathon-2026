@@ -4,12 +4,6 @@
   </video>
 </p>
 
-<p align="center">
-  <img src="./visual_assets/Luotea-logo_RGB_green.png" alt="Luotea logo" width="220" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./visual_assets/Luotea_Smartti_green.png" alt="Luotea Smartti logo" width="220" />
-</p>
-
 # 🌿 Luotea Hackathon 2026
 
 ## 🔮 Predictive Maintenance – From Calendars to True Operational Reliability
@@ -21,12 +15,11 @@ Welcome to the **Luotea Hackathon 2026** repository. This repository contains th
 
 The goal of the hackathon is to explore how fragmented building maintenance data can be transformed into actionable signals and better operational decisions.
 
-> **data → signals → decisions**  
-> **📊 → ⚡ → ✅**
+> **data → signals → decisions**
 
 Participants are encouraged to develop a **concept, model, prototype, analysis, dashboard, or service logic** that helps move building maintenance from static schedules and reactive fault handling toward predictive, data-driven operational reliability. 🧠🏢
 
-**🤝 Partners and data contributors referenced in this repository:** Luotea, KIRAHub, KONE, Valmet Technologies Oy, and Valmet Flow Control.
+**🤝 Partners and data contributors referenced in this repository:** Luotea, KIRAHub, KONE, Valmet Technologies Oy, Lentokentänkatu 11, and Valmet Flow Control Oy Hakkila Factory.
 
 ---
 
@@ -45,14 +38,36 @@ In this hackathon, we ask:
 
 ---
 
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./visual_assets/tekniikka.jpg" alt="Technical maintenance" width="220" /><br />
+      <strong>🔧 Technical reliability</strong><br />
+      From equipment signals and alarms toward earlier interventions.
+    </td>
+    <td align="center" width="33%">
+      <img src="./visual_assets/siivous.jpg" alt="Cleaning services" width="220" /><br />
+      <strong>🧹 Facility services</strong><br />
+      From fixed routines toward usage-aware service needs.
+    </td>
+    <td align="center" width="33%">
+      <img src="./visual_assets/viherpalvelut.jpg" alt="Green services" width="220" /><br />
+      <strong>🌿 Site environments</strong><br />
+      From fragmented observations toward a broader operational picture.
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🏢 Properties and Sites Included in the Data
 
 | Company | Site / Building | Campus | Address | Property ID | Building Code |
 |---|---|---|---|---|---|
-| Valmet Technologies Oy | Lentokentänkatu 11 |  | Lentokentänkatu 11, 33900 Tampere | 837-303-0780-0019 | 837-303-780-19-2 |
-| Valmet Flow Control | Venttiilitehdas | Hakkila | Vanha Porvoontie 229, Vantaa | 92-66-200-20 | 100419457A |
-| Valmet Flow Control | Toimisto | Hakkila | Vanha Porvoontie 229, Vantaa | 92-66-200-20 | 1004194569 |
-| Valmet Flow Control | STD tehdas | Hakkila | Vanha Porvoontie 229, Vantaa | 92-66-200-20 | 1004194558 |
+| Valmet Technologies Oy, Lentokentänkatu 11 | Lentokentänkatu 11 |  | Lentokentänkatu 11, 33900 Tampere | 837-303-0780-0019 | 837-303-780-19-2 |
+| Valmet Flow Control Oy Hakkila Factory | Venttiilitehdas | Hakkila | Vanha Porvoontie 229, Vantaa | 92-66-200-20 | 100419457A |
+| Valmet Flow Control Oy Hakkila Factory | Toimistotalo | Hakkila | Vanha Porvoontie 229, Vantaa | 92-66-200-20 | 1004194569 |
+| Valmet Flow Control Oy Hakkila Factory | STD tehdas | Hakkila | Vanha Porvoontie 229, Vantaa | 92-66-200-20 | 1004194558 |
 | Anonymous | Aurora House | Anonymous | Anonymous | Anonymous | Anonymous |
 | Anonymous | Meridian Tower | Anonymous | Anonymous | Anonymous | Anonymous |
 | Anonymous | Horizon Plaza | Anonymous | Anonymous | Anonymous | Anonymous |
@@ -71,7 +86,7 @@ The hackathon datasets include a combination of real estate, maintenance, servic
       <th align="left">Dataset</th>
       <th class="rotate"><div style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;">Lentokentänkatu 11</div></th>
       <th class="rotate"><div style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;">Venttiilitehdas</div></th>
-      <th class="rotate"><div style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;">Toimisto</div></th>
+      <th class="rotate"><div style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;">Toimistotalo</div></th>
       <th class="rotate"><div style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;">STD tehdas</div></th>
       <th class="rotate"><div style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;">Aurora House</div></th>
       <th class="rotate"><div style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;">Meridian Tower</div></th>
@@ -80,44 +95,18 @@ The hackathon datasets include a combination of real estate, maintenance, servic
     </tr>
   </thead>
   <tbody>
-    <tr><td>🧠 Smartti data</td><td align="center">❌</td><td align="center">❓</td><td align="center">❓</td><td align="center">❓</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td></td></tr>
+    <tr><td>🧠 Smartti data</td><td align="center">❌</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td>Smartti data is available for Venttiilitehdas and the anonymous sites.</td></tr>
     <tr><td>🛗 KONE elevator data</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td>Available for anonymous sites</td></tr>
-    <tr><td>🚨 Alarms</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td></td></tr>
+    <tr><td>🚨 Alarms</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td>Alarms for Aurora House, Meridian Tower, and Horizon Plaza are provided via Smartti JSON files. For the remaining sites, a separate CSV file has been provided.</td></tr>
     <tr><td>🧾 Work orders</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td></td></tr>
     <tr><td>🗓️ Maintenance schedule</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td></td></tr>
     <tr><td>📝 Maintenance reports</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td></td></tr>
-    <tr><td>🧹 Needs-based cleaning data</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td></td></tr>
-    <tr><td>🔧 Service descriptions: technical property maintenance</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td></td></tr>
-    <tr><td>🏠 Service descriptions: property maintenance</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td></td></tr>
+    <tr><td>🧹 Needs-based cleaning data</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td>Scope of IoT / data-driven cleaning devices covers about 10% of the site. The rest of the site is cleaned conventionally.</td></tr>
+    <tr><td>🔧 Service descriptions: technical property maintenance</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td>Service descriptions for technical and conventional property maintenance for Venttiilitehdas, Toimistotalo, and STD tehdas can be found in attachment "Liite 4A Palvelupäällikkö Valmet FC Vantaa.pdf".</td></tr>
+    <tr><td>🏠 Service descriptions: property maintenance</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td>Service descriptions for technical and conventional property maintenance for Venttiilitehdas, Toimistotalo, and STD tehdas can be found in attachment "Liite 4A Palvelupäällikkö Valmet FC Vantaa.pdf".</td></tr>
     <tr><td>✨ Service descriptions: cleaning</td><td align="center">✅</td><td align="center">❌</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td></td></tr>
     <tr><td>🤖 Cleaning robots</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td align="center">❌</td><td></td></tr>
   </tbody>
-</table>
-
----
-
-## 🖼️ Visual Theme and Service Areas
-
-The repository includes visual assets in the `visual_assets` folder. These can be used in presentations, dashboards, prototypes, and README storytelling. 🎨
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./visual_assets/viherpalvelut.jpg" alt="Viherpalvelut" width="220" /><br />
-      <strong>🌿 Viherpalvelut</strong><br />
-      Green services and outdoor environments
-    </td>
-    <td align="center" width="33%">
-      <img src="./visual_assets/siivous.jpg" alt="Siivous" width="220" /><br />
-      <strong>🧹 Siivous</strong><br />
-      Cleaning and facility services
-    </td>
-    <td align="center" width="33%">
-      <img src="./visual_assets/tekniikka.jpg" alt="Tekniikka" width="220" /><br />
-      <strong>🔧 Tekniikka</strong><br />
-      Technical maintenance and reliability
-    </td>
-  </tr>
 </table>
 
 ---
@@ -209,6 +198,10 @@ Current data almost always describes the past. It reports, but does not guide. I
 Predictive maintenance is widely discussed, but it rarely translates into practical operations, contracts, or measurable services. Customers still purchase maintenance visits and working hours, even though the real need is operational reliability and risk management. 🏢🛠️
 
 The biggest pain point is not a single major failure, but recurring small disturbances that accumulate unnoticed as a result of static maintenance and reactive operating models. 🧩
+
+<p align="center">
+  <img src="./visual_assets/tekniikka.jpg" alt="Technical maintenance and reliability" width="360" />
+</p>
 
 In this hackathon, we ask:
 
