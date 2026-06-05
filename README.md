@@ -11,6 +11,8 @@
 **📅 Date:** 5–7 June 2026  
 **🎯 Challenge:** How can building maintenance move from calendar-based thinking to predictive, data-driven management?
 
+## [link to opening presentation materials:](https://drive.google.com/drive/folders/1DNmMsl1auCFxSPB-3NghY-qP6B7VZJ5v?usp=sharing)
+
 Welcome to the **Luotea Hackathon 2026** repository. This repository contains the datasets, dataset documentation, judging criteria, and practical instructions for hackathon participants. 🚀
 
 The goal of the hackathon is to explore how fragmented building maintenance data can be transformed into actionable signals and better operational decisions.
